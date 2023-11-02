@@ -1,0 +1,64 @@
+h1, h4, h6, span {
+    text-align: left;
+}
+body {
+    background-color: white;
+    font-family: sans-serif;
+    color: black;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+.heading img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+.skills {
+    display: flex;
+    align-items: right;
+    column-gap: 200px;
+    text-align: left;
+    padding: 20px;
+    background-color: #ada9e0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+h2, .heading {
+    background-color: #5c5b61;
+    border-radius: 10px;
+    padding: 20px;
+    }
+p {
+    background-color: #ada9e0;
+    border-radius: 10px;
+    padding: 20px;
+    }
+.education {
+    background-color: #ada9e0;
+    border-radius: 10px;
+    padding: 20px;
+    }
+.Work {
+    background-color: #ada9e0;
+    border-radius: 10px;
+    padding: 20px;
+    }
+a {
+    color: black;
+}
+a:visited {
+    color: grey;
+}
+a:hover {
+    color: white;
+}
